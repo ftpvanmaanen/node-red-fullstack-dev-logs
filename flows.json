@@ -208,50 +208,6 @@
         }
     },
     {
-        "id": "16611505b5edec06",
-        "type": "subflow",
-        "name": "Timer & Iluminance Buienradar",
-        "info": "",
-        "category": "",
-        "in": [
-            {
-                "x": 20,
-                "y": 100,
-                "wires": []
-            }
-        ],
-        "out": [
-            {
-                "x": 820,
-                "y": 140,
-                "wires": []
-            },
-            {
-                "x": 820,
-                "y": 200,
-                "wires": []
-            },
-            {
-                "x": 490,
-                "y": 220,
-                "wires": []
-            }
-        ],
-        "env": [],
-        "meta": {},
-        "color": "#00FFFF",
-        "inputLabels": [
-            "timer en buienradar"
-        ],
-        "outputLabels": [
-            "lights on",
-            "lights off",
-            "iluminance",
-            "debug 1",
-            "debug 2"
-        ]
-    },
-    {
         "id": "75c86075bd20a656",
         "type": "subflow",
         "name": "Lampen controller",
@@ -316,7 +272,7 @@
                 "y": 80,
                 "wires": [
                     {
-                        "id": "745337d4d75e31af"
+                        "id": "1b1c141c3a9c57aa"
                     }
                 ]
             }
@@ -1642,16 +1598,6 @@
         ]
     },
     {
-        "id": "562fc359ecb7b42e",
-        "type": "comment",
-        "z": "16611505b5edec06",
-        "name": "Buitenlampen op tijd en iridium level laten reageren",
-        "info": "",
-        "x": 430,
-        "y": 20,
-        "wires": []
-    },
-    {
         "id": "4e84b42f37ae1394",
         "type": "server-state-changed",
         "z": "75c86075bd20a656",
@@ -1810,18 +1756,17 @@
         ]
     },
     {
-        "id": "745337d4d75e31af",
+        "id": "1b1c141c3a9c57aa",
         "type": "rbe",
         "z": "77fc5a792c4090e4",
-        "name": "on change",
+        "name": "",
         "func": "rbe",
         "gap": "",
         "start": "",
         "inout": "out",
         "septopics": true,
         "property": "payload",
-        "topi": "topic",
-        "x": 190,
+        "x": 170,
         "y": 80,
         "wires": [
             [
@@ -5204,24 +5149,6 @@
         "name": "",
         "x": 110,
         "y": 680,
-        "wires": [
-            []
-        ]
-    },
-    {
-        "id": "f334962588a1e285",
-        "type": "rbe",
-        "z": "17a4be46.73c692",
-        "name": "",
-        "func": "rbe",
-        "gap": "",
-        "start": "",
-        "inout": "out",
-        "septopics": true,
-        "property": "payload",
-        "topi": "topic",
-        "x": 510,
-        "y": 500,
         "wires": [
             []
         ]

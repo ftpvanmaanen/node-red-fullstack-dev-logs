@@ -2,7 +2,23 @@
     "name": "node-red-1234-clicker-dev-logs",
     "description": "inital upload",
     "version": "0.0.1",
-    "dependencies": {},
+    "dependencies": {
+        "node-red-contrib-boolean-logic": "0.0.3",
+        "node-red-contrib-boolean-parser": "1.4.6",
+        "node-red-contrib-buienradar": "0.4.3",
+        "node-red-contrib-combine": "1.8.1",
+        "node-red-contrib-counter": "0.1.6",
+        "node-red-contrib-custom-node": "2.0.0",
+        "node-red-contrib-edge-trigger": "1.0.1",
+        "node-red-contrib-home-assistant-websocket": "0.59.0",
+        "node-red-contrib-light-scheduler": "0.0.18",
+        "node-red-contrib-looptimer": "0.0.8",
+        "node-red-contrib-pid": "2.0.0",
+        "node-red-contrib-simple-motion-light": "0.1.16",
+        "node-red-dashboard": "3.6.1",
+        "node-red-node-rbe": "0.5.0",
+        "node-red-node-smooth": "0.1.2"
+    },
     "node-red": {
         "settings": {
             "flowFile": "flows.json",
